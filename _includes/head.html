@@ -7,12 +7,56 @@
 
   <!-- Google font typography settings - defined in _config.yml -->
   {% if site.resume_theme == 'default' %}
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
+  <!-- link href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap' rel='stylesheet' type='text/css' -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,500|Oswald:400,300,600,700' rel='stylesheet' type='text/css'>
   {% endif %}
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
+
+  <style>
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    .header-cs {
+	      padding: 20px 16px;
+	      background: #117;
+	      color: #111;
+    }
+
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .container{
+        width: 100%;
+        margin: 0px auto; /* Center the DIV horizontally */
+	left: 0;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;       
+        background: #333;
+        padding: 10px 0;
+        color: #111;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }    
+    /* Some more styles to beutify this example */
+    nav a{
+        color: #f51;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+    .container p{
+        line-height: 100px; /* Create scrollbar to test positioning */
+    }
+  </style>
 </head>

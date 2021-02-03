@@ -1,12 +1,15 @@
-# Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# Technical skills
+- skill: Programming Languages
+  description: Python, C++, Golang, Java
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Operating Systems
+  description: Ubuntu, CentOS, Windows, Solaris
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Virtualization
+  description: Xen, KVM, Kubevirt, Kubernetes
+
+- skill: Tools
+  description: Packer, Ansible, Jenkins, Protobuf, cloud-init, rsyslog, Kibana, RabbitMQ
+
+- skill: Storage/Databases
+  description: NFS, CIFS, ZFS, LVM, Ceph, ZFSSA, MySQL

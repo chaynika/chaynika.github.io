@@ -1,19 +1,26 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: NVIDIA Corp, Santa Clara, CA
+  position: Senior Software Engineer
+  duration: May, 2018 &mdash; Present
+  summary: NVIDIA GEFORCE NOW on GN2:<ul class="resume-item-list"><li>Created a Kubernetes device plugin for POC to enable disks and RAID controller passthrough to a Kubevirt VirtualMachineInstance using Golang.</li><li>Critical in migrating Nvidia GeForce Now from Xen infrastructure to Kubernetes. This involved understanding of libvirt/qemu, understanding technical requirements from old Xen based infrastructure and converting them to new Kubevirt infrastructure. Designed performance class specs by translating from libvirt VMs to Kubevirt VMs. Also added design changes to services running on gameseat instance to run in new infrastructure.</li><li>Automated various manual processes and converted them to Jenkins jobs (Jenkins pipeline, YAML, Python).</li></ul>NVIDIA GEFORCE NOW (Linux gameseat):<ul class="resume-item-list"><li>Worked on the MVP project to enable game streaming from a Linux VM. Had complete ownership of Linux VM image, startup service (C++), storage libraries and automation used for the project.</li><li>Added CIS-CAT hardening Ansible roles to the Linux (Ubuntu) VM generation process. This was later extended to all service VMs running Linux. Achieved score > 80% after implementing hardening.</li><li>Created a service to collect all system metrics of the Linux VM instance at regular intervals.</li></ul>NVIDIA GEFORCE NOW (Windows gameseat):<ul class="resume-item-list"><li>Actively developing features and fixing bugs for the startup service run in the Windows gameseat VM.</li><li>Developed a tool using Windows API and NvAPI to configure display as an alternative to the Microsoft DisplaySwitch tool.</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: Red Hat Inc, Raleigh, NC
+  position: Software Developer Intern
+  duration: Jan, 2018 &mdash; May, 2018
+  summary: OPENSTACK CINDER BACKUP:<ul class="resume-item-list"><li>Redesigned and fixed broken code to support Ceph RBD driver for incremental backup.</li><li>Fixed issues with block storage incremental backup feature for multiple large concurrent backups by adding multi-threading.</li></ul>
 
+- company: Red Hat Inc, Raleigh, NC
+  position: Software Developer Intern
+  duration:  May, 2017 &mdash; Aug, 2017
+  summary: OPENSTACK CINDER (BLOCK STORAGE) CLI:<ul class="resume-item-list"><li>Developed new polling feature while volume creation operation completes. This was helpful for large volumes that take time to be created.</li><li>Added asynchronous error messages to Cinder back-end to detect failures in volume creation using CLI.</li><li>Added feature to Cinder volume encryption key manager to migrate keys from Castellan to OpenStack Barbican.</li></ul>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: Amagi Media Labs, Bangalore
+  position: SDET
+  duration: Mar, 2016 &mdash; Jul 2016
+  summary: AMAGI MIX:<ul class="resume-item-list"><li>Developed a test automation framework for testing APIs for Amagi Mix in Cucumber BDD and Ruby.</li></ul>
+
+- company: Oracle Corporation, Bangalore
+  position: Software Engineer
+  duration: Jul, 2013 &mdash; Mar, 2016
+  summary: ORACLE SOLARIS CLUSTER:<ul class="resume-item-list"><li>Added Fuzz testing for Solaris Cluster to detect security vulnerabilities for command line client.</li><li>Added a test automation suite for Cluster Geographic Edition with ZFS Storage Appliance and Apache web server, Solaris zones and zone clusters.</li><li>Acquired good grasp over Distributed Systems, SCSI/iSCSI, NAS/SAN, Virtualization, Disaster Recovery. Added test suites to reduce testing time by over 95%.</li></ul>
+

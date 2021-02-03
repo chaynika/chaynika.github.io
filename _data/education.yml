@@ -1,13 +1,12 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Masters of Science, Computer Engineering (Computer Systems)
+  uni: Arizona State University, Tempe, AZ
+  year: Aug 2016 &mdash; May 2018
+  summary: Multimedia and Web Databases, Statistical Machine Learning, Artificial Intelligence, Foundations of Algorithms, Mobile Computing, Advanced Memory Systems, Software Security
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Bachelors in Technology, Electrical Engineering 
+  uni: National Institute of Technology, Silchar
+  year: Aug 2009 &mdash; May 2013
+  awards:
+    - award: Within the top 10 percentile of class
+  summary: Computer Organization and Architecture, Microprocessors I & II, Data Structures and Algorithms
